@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form Demos</h1>
+    <form action="/tacos">
+      <p>
+        <label for="username">Username :</label>
+        <input
+          type="text"
+          placeholder="username"
+          id="username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">Password :</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+          id="password"
+        />
+      </p>
+
+      <p>
+        <label for="color">Enter a Color :</label>
+        <input type="color" name="color" id="color" />
+      </p>
+
+      <p>
+        <!-- Another way to label inputs  -->
+        <label
+          >Select a Date :
+          <input type="datetime-local" name="time" id="" />
+        </label>
+      </p>
+      <p>
+        <label for="number">Enter a number</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="10"
+          max="20"
+          step="3"
+          placeholder="enter a number"
+        />
+      </p>
+
+      <!-- button that doesnot submit the form  -->
+      <button type="reset">Reset</button>
+      <!-- button that submit the form  -->
+      <button>Submit</button>
+      <input type="submit" value="click me" />
+    </form>
+    <hr />
+    <!-- outside of a form  -->
+    <button>Outside!!</button>
+    <h2>Hijacking Searches</h2>
+    <h3>Search on Google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search</button>
+    </form>
+
+    <h3>Search on Youtube</h3>
+    <form action="htttps:www.youtube.com/results">
+      <input type="text" name="search_query" />
+    </form>
+
+    <!-- Checkboxes  -->
+    <h2>More inputs</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything in islam</label> 
+      <p>
+        <h3>Select your Tshirt size</h3>
+        <input type="radio" name="size" id="xs" value="extra-small"> 
+        <label for="xs">Extra Small</label> <br>
+     
+        <input type="radio" name="size" id="s" value="small">
+        <label for="s">Small</label> <br>
+        <input type="radio" name="size" id="m" value="medium">
+        <label for="m">Medium</label>
+      </p>
+
+      <p>
+        <label for="meal">Please Select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="veg" selected>Vegiterian</option>
+          <option value="steak">Steak</option>
+        </select>
+        </p>
+
+        <p>
+          <label for="cheese">Amout of Cheese<f/label>
+          <input type="range" name="cheese_level" id="cheese" min="1" max="100" step="10" >
+        </p>
+
+
+        <p>
+          <label for="request">Any Special Requests?</label> <br>
+          <textarea name="request" id="request" cols="20" rows="10"
+          placeholder="Start typing here"
+          >
+
+          </textarea>
+        </p>
+        <button type="submit">Submit</button>
+
+    </form>
+    
+  </body>
+</html>
