@@ -116,6 +116,19 @@
         <button type="submit">Submit</button>
 
     </form>
+
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter your First name</label>
+      <input type="text" name="first" id="first" required>
+
+      <p>
+        <label for="name">Username</label>
+        <input type="text" name="name" id="name" minlength="3" maxlength="5">
+      </p>
+      <input type="email" name="email" required>
+      <button>Submit</button>
+    </form>
     
   </body>
 </html>
