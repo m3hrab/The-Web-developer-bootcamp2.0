@@ -30,3 +30,12 @@ h2 {
   color: #f1faee;
   font-size: 16px;
 }
+
+/* Descendant selector  */
+.post a {
+  color: #457b9d;
+}
+
+footer a {
+  color: red;
+}
