@@ -1,5 +1,5 @@
 /* Universal selector ==> Select everything */
-* {
+* body {
   background-color: #f1faee;
 }
 
@@ -15,7 +15,7 @@ span {
 /* selector list  */
 h1,
 h2 {
-  color: #14213d;
+  color: #14213e;
 }
 
 /* id selector  */
@@ -34,6 +34,8 @@ h2 {
 /* Descendant selector  */
 .post a {
   color: #457b9d;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer a {
@@ -50,6 +52,47 @@ footer > a {
   color: #457b9d;
 }
 
-.test > a {
+/* Attribute Selector  */
+input[type="password"] {
   color: tomato;
+}
+
+a[href$=".com"] {
+  color: pink;
+}
+
+/* Pseudo classes  */
+.post button:hover {
+  background-color: orangered;
+  color: #f1faee;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: lightgreen;
+}
+
+.post:nth-of-type(2n + 1) {
+  background-color: #ced8ca;
+}
+
+/* pseudo elements  */
+.post h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: tomato;
+}
+
+::selection {
+  background-color: orangered;
+}
+
+button:hover {
+  background-color: olive;
+  font-size: 10px;
 }
