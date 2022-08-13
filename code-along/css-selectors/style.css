@@ -39,3 +39,17 @@ h2 {
 footer a {
   color: red;
 }
+
+/* Adjacent combinator */
+h2 + button {
+  font-size: 15px;
+}
+
+/* Direct Child Combinator  */
+footer > a {
+  color: #457b9d;
+}
+
+.test > a {
+  color: tomato;
+}
