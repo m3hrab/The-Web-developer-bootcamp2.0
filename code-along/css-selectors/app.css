@@ -1,0 +1,16 @@
+body {
+  color: purple;
+}
+
+h1 {
+  color: blue;
+}
+/* 
+section {
+  color: aqua;
+} */
+
+input,
+button {
+  color: inherit;
+}
