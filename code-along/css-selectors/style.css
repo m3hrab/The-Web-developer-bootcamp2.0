@@ -96,3 +96,8 @@ button:hover {
   background-color: olive;
   font-size: 10px;
 }
+
+button {
+  background-color: hotpink !important;
+  color: #14213d !important;
+}
