@@ -1,0 +1,15 @@
+/* Make all li's blue  */
+li {
+  color: blue;
+}
+
+/* Make everything with the class of 'done' gray  */
+.done {
+  color: gray;
+}
+
+/* Make the element with the id of 'clear' have red BG and white text  */
+#clear {
+  color: white;
+  background-color: red;
+}
