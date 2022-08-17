@@ -38,7 +38,8 @@
 }
 
 #sticky .middle {
+  display: block;
   position: sticky;
-  top: 0;
+  top: 100px;
   background-color: #9c057b;
 }
