@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+section div {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  transition: width 2s;
+}
+section:hover div {
+  width: 600px;
+}
+div:nth-of-type(1) {
+  background-color: #a2d2ff;
+  transition-timing-function: linear;
+}
+div:nth-of-type(2) {
+  background-color: #bde0fe;
+  transition-timing-function: ease-in;
+}
+div:nth-of-type(3) {
+  background-color: #ffafcc;
+  transition-timing-function: ease-out;
+}
+div:nth-of-type(4) {
+  background-color: #ffc8dd;
+  transition-timing-function: ease-in-out;
+}
