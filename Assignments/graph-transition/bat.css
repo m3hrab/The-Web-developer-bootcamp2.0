@@ -12,7 +12,7 @@ img:nth-of-type(2) {
 }
 
 section:hover img:first-of-type {
-  transform: translateX(-900px);
+  transform: translate(-900px, -300px);
 }
 
 section:hover img:nth-of-type(2) {
