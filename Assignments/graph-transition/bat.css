@@ -1,0 +1,24 @@
+img:first-of-type {
+  width: 100px;
+  margin-right: 600px;
+  position: relative;
+  left: 830px;
+  transition: 0.3s 0.2s;
+}
+
+img:nth-of-type(2) {
+  transition: 0.5s;
+  transform: rotate(-30deg);
+}
+
+section:hover img:first-of-type {
+  transform: translateX(-900px);
+}
+
+section:hover img:nth-of-type(2) {
+  transform: rotate(30deg);
+}
+
+/* section {
+  transition: 2s;
+} */
