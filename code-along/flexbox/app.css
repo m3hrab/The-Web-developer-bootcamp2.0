@@ -30,3 +30,22 @@ div:nth-of-type(6) {
   flex-grow: 1;
   flex-shrink: 3;
 }
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  border: 3px solid black;
+  height: 300px;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: #003049;
+  flex: 1 2 100px;
+  /* border: 2px solid white; */
+}
+
+main .maincontent {
+  background-color: tomato;
+  flex: 2 1 300px;
+}
