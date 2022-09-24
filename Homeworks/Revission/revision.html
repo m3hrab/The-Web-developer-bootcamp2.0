@@ -8,33 +8,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table>
-      <thead>
-        <tr>
-          <th colspan="3">Pricing Tables</th>
-        </tr>
-        <tr>
-          <th>Subscription</th>
-          <th>Price</th>
-          <th>Support</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Free</td>
-          <td>Free</td>
-          <td>N/A</td>
-        </tr>
-        <tr>
-          <td>Personal</td>
-          <td>$9.99</td>
-          <td>Weekdays</td>
-        </tr>
-        <tr>
-          <td>Business</td>
-          <td>$49.99</td>
-          <td>24/7</td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>Race Registration!</h1>
+    <form action="nowhere">
+      <p>
+        <label for="f_name">First Name</label>
+        <input type="text" name="f_name" id="f_name" required />
+        <label for="l_name">Last Name</label>
+        <input type="text" name="l_name" id="l_name" required />
+      </p>
+
+      <p>Select a Race</p>
+      <p>
+        <input type="radio" name="race-type" id="5k" value="fun run 5k" />
+        <label for="5k">Fun Run 5k</label> <br />
+        <input type="radio" name="race-type" id="half" value="half" />
+        <label for="half">Half Marathon</label> <br />
+        <input type="radio" name="race-type" id="full" value="full" />
+        <label for="full">Full Marathon</label> <br />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          minlength="4"
+          required
+        />
+      </p>
+      <p>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+          <option value="under 18">under 18</option>
+          <option value="under 18">18-25</option>
+          <option value="under 18">25-40</option>
+        </select>
+      </p>
+      <button>Register</button>
+    </form>
+  </body>
 </html>
