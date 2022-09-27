@@ -1,9 +1,99 @@
-h1 {
-  text-transform: uppercase;
-  font-family: monospace;
-  text-align: center;
-  font-weight: 10;
+/* UNIVERSAL SELECTOR */
+/* * {
+  background-color: lightgray;
+} */
+
+/* Element Selector */
+body {
+  background-color: #f1faee;
+}
+button {
+  font-size: 20px;
+  background-color: #a8dadc;
+}
+
+span {
+  color: #4579bd;
+}
+/* SELECTOR LIST  */
+h1,
+h2 {
+  color: #1d3557;
+}
+
+/* ID SELECTOR */
+#signup {
+  background-color: #1d3557;
+  color: #fff;
+}
+
+button {
+  background-color: teal;
+}
+/* CLASS SELECTOR */
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+/* DECENDANT SELECTOR  */
+.post a {
+  color: #4579bd;
+}
+footer a {
+  color: red;
+}
+
+/* ADJACENT COMBINATOR  */
+h2 + button {
+  font-size: 15px;
+}
+
+/* Direct Dicendent combinator  */
+span a {
+  font-weight: bold;
+  text-decoration: none;
+}
+footer > a {
+  color: #1d3557;
+}
+
+/* Attribute selector  */
+input[type="password"] {
+  color: #e63946;
+}
+a[href*="google"] {
+  color: teal;
+}
+
+/* pseudo classes  */
+.post button:hover {
+  background-color: red;
+  color: white;
+}
+
+.post button:active {
+  background-color: rgb(17, 212, 10);
+}
+span a:hover {
+  text-decoration: underline;
+}
+
+.post:nth-of-type(2n + 1) {
+  background-color: #b1bbae;
+}
+
+/* pseudo element  */
+h2::first-letter {
   font-size: 40px;
-  letter-spacing: 20px;
-  text-decoration: wavy underline plum;
+}
+
+::selection {
+  background-color: orange;
+}
+
+button:hover {
+  background-color: green;
+  /* font-size: 10px; */
 }
