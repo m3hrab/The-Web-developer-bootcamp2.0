@@ -1,0 +1,12 @@
+li {
+  color: blue;
+}
+.done {
+  color: grey;
+  text-decoration: line-through;
+}
+
+#clear {
+  color: white;
+  background-color: red;
+}
