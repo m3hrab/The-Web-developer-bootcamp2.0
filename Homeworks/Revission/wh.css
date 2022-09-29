@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 div {
   width: 200px;
   height: 200px;
@@ -6,6 +9,11 @@ div {
 
 h1 {
   background-color: rgb(6, 240, 240);
+  width: 200px;
+}
+span {
+  margin-left: 40px;
+  margin-bottom: 30px;
 }
 
 div:nth-of-type(1) {
@@ -14,6 +22,8 @@ div:nth-of-type(1) {
   border-style: solid;
   border-color: grey;
   box-sizing: border-box;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 div:nth-of-type(2) {
   background-color: #02a754;
@@ -21,6 +31,7 @@ div:nth-of-type(2) {
   border-style: dashed;
   border-color: rgb(255, 0, 0);
   border-left-width: 10px;
+  margin: 50px;
 }
 div:nth-of-type(3) {
   background-color: #004d26;
