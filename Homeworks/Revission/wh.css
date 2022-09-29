@@ -1,0 +1,35 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+
+h1 {
+  background-color: rgb(6, 240, 240);
+}
+
+div:nth-of-type(1) {
+  background-color: #01e472;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey;
+  box-sizing: border-box;
+}
+div:nth-of-type(2) {
+  background-color: #02a754;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: rgb(255, 0, 0);
+  border-left-width: 10px;
+}
+div:nth-of-type(3) {
+  background-color: #004d26;
+  border: 5px solid grey;
+  border-right-style: dotted;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0 10px;
+}
