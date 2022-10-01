@@ -1,0 +1,15 @@
+section {
+  background-color: teal;
+}
+
+.rgba {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 99, 71, 0.185);
+}
+.opacity {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: tomato;
+  opacity: 0.5;
+}

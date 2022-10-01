@@ -1,0 +1,51 @@
+h1 {
+  background-color: palegoldenrod;
+  border: 2px solid grey;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 200%;
+}
+span {
+  /* background-color: rgb(170, 238, 181); */
+  border: 2px solid grey;
+  padding: 40px;
+  margin: 30px;
+  /* display: block; */
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 50px;
+}
+
+section {
+  background-color: rgb(174, 211, 243);
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  font-size: 40px;
+}
+
+.units {
+  margin: 0;
+  border: 0;
+  background-color: tomato;
+  width: 80%;
+  height: 10%;
+}
+
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: teal;
+  color: white;
+}
+
+ul {
+  font-size: 1.5rem;
+}
