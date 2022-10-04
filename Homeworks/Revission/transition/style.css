@@ -1,0 +1,40 @@
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  margin: auto;
+  transition: all 2s;
+}
+
+.circle:hover {
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+section div {
+  width: 50px;
+  height: 50px;
+  background-color: chocolate;
+  margin: 10px;
+}
+
+section:hover div {
+  margin-left: 400px;
+}
+
+section div {
+  transition: margin-left 4s;
+}
+
+section div:nth-of-type(1) {
+  transition-timing-function: ease-in;
+}
+section div:nth-of-type(2) {
+  transition-timing-function: ease-out;
+}
+section div:nth-of-type(1) {
+  transition-timing-function: ease-in-out;
+}
+section div:nth-of-type(4) {
+  transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
+}
