@@ -1,0 +1,50 @@
+h1 {
+  border: 3px solid rgb(31, 36, 49);
+  padding: 0.4em 0.7em;
+  margin: 0.5em auto;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+section:first-of-type h1:nth-of-type(1) {
+  background-color: #e76f51;
+  /* transform-origin: bottom left; */
+  transition: transform 2s;
+}
+
+section:first-of-type h1:first-of-type:hover {
+  transform: rotateY(130deg) scaleZ(2);
+}
+section:first-of-type h1:nth-of-type(2) {
+  background-color: #f4a261;
+  transform: scale(0.6);
+}
+section:first-of-type h1:nth-of-type(3) {
+  background-color: #e9c46a;
+  transform: translate(-50px, 30px);
+}
+section:first-of-type h1:nth-of-type(4) {
+  background-color: #2a9d8f;
+  transform: skew(30deg);
+}
+section:nth-of-type(2) h1:nth-of-type(1) {
+  background-color: #e76f51;
+  transform: skew(-10deg, -5deg);
+}
+section:nth-of-type(2) h1:nth-of-type(2) {
+  background-color: #f4a261;
+  transform: rotate(20deg) scale(1.5);
+}
+section:nth-of-type(2) h1:nth-of-type(3) {
+  background-color: #e9c46a;
+  transform: translateX(-300px) rotate(0.5turn) scaleY(2);
+}
+section:nth-of-type(2) h1:nth-of-type(4) {
+  background-color: #2a9d8f;
+}
+
+section:nth-of-type(2) {
+  transform: scale(0.5) translateX(400px);
+}
