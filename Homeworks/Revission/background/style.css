@@ -1,0 +1,17 @@
+section {
+  background-color: blueviolet;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  /* background-image: url("https://w0.peakpx.com/wallpaper/824/717/HD-wallpaper-love-for-allah-bangla-bangla-typo-islamic-typography.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: top; */
+  background: cover/40%
+    url("https://w0.peakpx.com/wallpaper/824/717/HD-wallpaper-love-for-allah-bangla-bangla-typo-islamic-typography.jpg");
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+}
