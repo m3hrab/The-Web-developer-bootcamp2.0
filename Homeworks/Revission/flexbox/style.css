@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 90%;
+  height: 300px;
+  background-color: #00273d;
+  margin: 0 auto;
+  border: 5px solid #000d14;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+#container div {
+  width: 100px;
+  height: 100px;
+}
