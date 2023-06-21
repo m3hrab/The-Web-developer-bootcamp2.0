@@ -63,3 +63,7 @@ input[placeholder="password"]{
   border-radius: 5px;
   border: 2px solid greenyellow;
 }
+
+a[href*="puppies"]{
+  color:#457b9d;
+}
