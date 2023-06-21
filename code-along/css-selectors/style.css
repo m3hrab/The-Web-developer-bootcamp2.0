@@ -53,3 +53,7 @@ h2 + button {
 }
 
 /* DIRECT CHILD COMBINATORS  */
+/* select only the <a> that are direct children of <footer> */
+footer > a{
+  color: #457b9d;
+}
