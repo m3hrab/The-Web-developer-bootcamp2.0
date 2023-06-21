@@ -1,103 +1,47 @@
-/* Universal selector ==> Select everything */
-* body {
+/* Universal Selectors */
+/* select everything   */
+/* * {
+  background-color: cyan;
+} */
+
+/* Element Selectors  */
+/* select by element  */
+body {
   background-color: #f1faee;
 }
-
-/* Element Selector  */
 button {
   font-size: 20px;
-  background-color: #39c2b2;
+  background-color: #a8dadc;
 }
 
 span {
   color: #457b9d;
 }
 /* selector list  */
-h1,
-h2 {
-  color: #14213e;
+/* combine multiple selector using comma into a list  */
+h1, h2 {
+  color: #1d3557;
 }
 
-/* id selector  */
+/* ID SELECTOR  */
+
 #signup {
-  background-color: #14213d;
-  color: white;
+  background-color: #1d3557;
+  color: #f1faee;
 }
 
-/* element selector  */
+/* CLASS SELECTOR  */
 .tag {
-  background-color: red;
+  background-color: #e63946;
   color: #f1faee;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-/* Descendant selector  */
-.post a {
-  color: #457b9d;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a {
-  color: red;
-}
-
-/* Adjacent combinator */
-h2 + button {
-  font-size: 15px;
-}
-
-/* Direct Child Combinator  */
-footer > a {
+/* DESCENDANT SELECTOR  */
+.post a{
   color: #457b9d;
 }
 
-/* Attribute Selector  */
-input[type="password"] {
-  color: tomato;
+footer a{
+  color: #e63946;
 }
-
-a[href$=".com"] {
-  color: pink;
-}
-
-/* Pseudo classes  */
-.post button:hover {
-  background-color: orangered;
-  color: #f1faee;
-}
-
-.post a:hover {
-  text-decoration: underline;
-}
-
-.post button:active {
-  background-color: lightgreen;
-}
-
-.post:nth-of-type(2n + 1) {
-  background-color: #ced8ca;
-}
-
-/* pseudo elements  */
-.post h2::first-letter {
-  font-size: 50px;
-}
-
-p::first-line {
-  color: tomato;
-}
-
-::selection {
-  background-color: orangered;
-}
-
-button:hover {
-  background-color: olive;
-  font-size: 10px;
-}
-
-/* button {
-  background-color: hotpink !important;
-  color: #14213d !important;
-} */
