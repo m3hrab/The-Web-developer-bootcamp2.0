@@ -46,7 +46,7 @@ footer a{
   color: #e63946;
 }
 
-/* ADJACENT SELECTORS  */
+/* ADJACENT COMBINATOR  */
 h2 + button {
   font-size: 15px;
   background-color: hotpink;
