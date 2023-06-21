@@ -64,6 +64,12 @@ input[placeholder="password"]{
   border: 2px solid greenyellow;
 }
 
-a[href*="puppies"]{
+/* select only the a that href has the word "puppies" */
+/* a[href*="puppies"]{
   color:#457b9d;
+} */
+
+/* select only the <a> that href attributes value end with .com */
+a[href$=".com"]{
+  color: teal;
 }
