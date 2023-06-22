@@ -1,50 +1,43 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 div {
   width: 200px;
-  height: 200px;
-  background-color: tomato;
+  height: 180px;
 }
 
-h1 {
+h1{
   background-color: tomato;
   width: 200px;
-  margin: 0;
+  margin: 20px 100px;
 }
-
 span {
-  margin-left: 20px;
-  margin-top: 200px;
+  margin-left: 50px;
+  /* margin-top: 500px; */
 }
 #one {
-  background-color: #6d6875;
+  background-color: #e45e5e;
   border-width: 5px;
   border-color: black;
   border-style: solid;
-  padding-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 100px;
 }
 
-#two {
-  background-color: #b5838d;
+#two{
+  background-color: #b61919;
   border-width: 3px;
-  border-color: #457b9d;
+  border-color: aqua;
   border-style: dashed;
-  border-left-width: 8px;
-  margin: 200px;
+  border-left-color: greenyellow;
+  border-left-width: 10px;
+  margin: 20px 200px;
 }
 
 #three {
-  background-color: #e5989b;
-  border: 4px solid black;
-  border-left-style: dotted;
+  background-color: #502121;
+  border: 5px solid blue;
+  border-right-style: dotted;
   border-radius: 50%;
 }
 
+
 button {
-  padding: 10px 20px 30px 40px;
+  padding: 10px 60px 20px 50px;
 }
+

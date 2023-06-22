@@ -40,6 +40,8 @@ h1, h2 {
 /* DESCENDANT SELECTOR  */
 .post a{
   color: #457b9d;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer a{
@@ -49,7 +51,7 @@ footer a{
 /* ADJACENT COMBINATOR  */
 h2 + button {
   font-size: 15px;
-  background-color: hotpink;
+  background-color:#5095c0;
 }
 
 /* DIRECT CHILD COMBINATORS  */
@@ -73,3 +75,59 @@ input[placeholder="password"]{
 a[href$=".com"]{
   color: teal;
 }
+
+
+/* PSEUDO CLASSES */
+/* keyword added to a selector that specifies a special state of the selected elements */
+.post button:hover{
+  background-color: #e63946;
+  color: #f1faee;
+  cursor: pointer;
+}
+
+.post a:hover{
+  text-decoration: underline;
+}
+
+.post button:active{
+  background-color: #02c39a;
+  color: #f1faee;
+}
+
+.post:nth-of-type(2n){
+  background-color: #cad3c7;
+}
+
+/* PSEUDO ELEMENTS  */
+/* keyword added to a selector that let us style a particular part of selected elements */
+
+.post h2::first-letter{
+  font-size: 40px;
+}
+
+.article::first-line{
+  color: rgb(190, 6, 190);
+}
+.article::selection{
+  background-color: orange;
+}
+
+/* CASCADE */
+/* the order matters */
+h1,h2{
+  color: teal;
+}
+
+/* SPECIFICITY  */
+/* specificity is how the browser decide which rules should apply when multiple rules could apply to the same element. */
+
+/* It is a measure of how specific a given selector is. The more specific selector wins  */
+
+button:hover{
+  background-color: teal;
+  /* font-size: 10px; */
+}
+
+/* button{
+  background-color: tomato !important;
+} */

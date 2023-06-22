@@ -1,56 +1,17 @@
-html {
-  font-size: 15px;
-}
-#parcentage {
-  background-color: #6d6875;
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  border-radius: 10px;
+section {
+  width: 500px;
+  height: 500px;
+  background-color: teal;
 }
 
 div {
-  background-color: #e5989b;
-  width: 100%;
+  width: 80%;
   height: 20%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  background-color: tomato;
 }
 
-#ems {
-  font-size: 30px;
-}
-
-#ems h2 {
-  font-size: 1.5em;
-  /* padding: 0 0.5em; */
-}
-
-#ems h3 {
-  font-size: 1em;
-}
-#ems p {
-  font-size: 0.6em;
-}
-
-button {
-  background-color: rgb(19, 224, 19);
-  color: white;
+h1 {
+  font-size: 40px;
   border: 1px solid black;
-  font-size: 1em;
-  padding: 0 1em;
-  border-radius: 0.5em;
-  margin: 1em;
-}
-
-#ems ul {
-  font-size: 1.3em;
-}
-
-#rems h2 {
-  font-size: 3rem;
-}
-
-#rems ul {
-  font-size: 2rem;
+  line-height: 200%;
 }
