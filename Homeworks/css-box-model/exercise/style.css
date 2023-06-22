@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(109, 99, 81);
+    font-family: sans-serif;
+}
+.card {
+    width: 350px;
+    margin: auto;
+    background-color:#ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.time , .title{
+    text-transform: uppercase;
+    color: rgb(116, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 25px;
+    color: rgb(78, 78, 78);
+    font-weight: 400;
+}
+
+button {
+    background-color: rgb(37, 32, 22);
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1;
+    border: none;
+    font-weight: bold;
+}
