@@ -1,17 +1,44 @@
-section {
-  width: 500px;
-  height: 500px;
+#em h2 {
+  font-size: 2em;
+  margin: 1em;
+}
+
+#em h3 {
+  font-size: 1.5em;
+}
+#em p {
+  font-size: .5em;
+}
+#em{
+  font-size: 20px;
+}
+
+button {
+  font-size: 1em;
+  padding: .5em 2em;
   background-color: teal;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 1.5em;
+  border: 2px solid black
 }
 
-div { 
-  width: 80%;
-  height: 20%;
-  background-color: tomato;
+#em ul {
+  font-size: 1.5em;
 }
 
-h1 {
+
+html{
   font-size: 40px;
-  border: 1px solid black;
-  line-height: 200%;
+}
+#rem h2{
+  font-size: 2rem;
+}
+
+#rem h3 {
+  font-size: 1.5rem;
+}
+
+#rem ul{
+  font-size: 1rem;
 }
