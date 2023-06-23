@@ -1,10 +1,13 @@
+body{
+  background-color: teal;
+}
 div {
   width: 200px;
   height: 180px;
 }
 
 h1{
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.438);
   width: 200px;
   margin: 20px 100px;
 }
