@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  font-style: oblique 30deg;
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
