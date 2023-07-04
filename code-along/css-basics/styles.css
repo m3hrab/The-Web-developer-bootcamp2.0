@@ -2,11 +2,22 @@ body {
   font-family: sans-serif;
 }
 
-a {
-  font-style: oblique 30deg;
-  text-decoration: none;
+h1 {
+  font-style: italic;
+  letter-spacing: 8px;
+  font-size: 80px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f;
 }
 
-em {
-  font-style: normal;
+/* list styling  */
+#cast {
+  list-style-type:"\1F44D";
+  list-style-position: inside;
+}
+
+
+a:hover {
+  color:#eb452b;
+  cursor:crosshair;
 }

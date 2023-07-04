@@ -1,0 +1,50 @@
+li {
+    color: purple;
+}
+
+h1,h2 {
+    color: blue;
+}
+
+#submit {
+    background-color: green;
+}
+
+#flavors span{
+    color: red;
+}
+
+.size {
+    color: magenta;
+}
+
+input[type="email"]{
+    background-color: orange;
+}
+
+a[href $=".org"]{
+    color: magenta;
+}
+
+h2.bright {
+    color: cyan;
+}
+
+#regular, #alternate {
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    background-color: teal;
+    margin: 10px;
+}
+
+#alternate {
+    box-sizing: border-box;
+    background-color: orangered;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    a
+}
